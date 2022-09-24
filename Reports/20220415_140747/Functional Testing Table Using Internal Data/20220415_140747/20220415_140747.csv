@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Functional Testing Table Using Internal Data,Chrome 100.0.4896.88,,,2022-04-15 14:08:05,2022-04-15 14:09:02,57.964s,FAILED
+,,,,,,,
+Test Cases/Table Book/Verify Table Value,Chrome 100.0.4896.88,,,2022-04-15 14:08:05,2022-04-15 14:08:41,35.708s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.88,,,2022-04-15 14:08:06,2022-04-15 14:08:14,7.957s,PASSED
+maximizeWindow(),Chrome 100.0.4896.88,,,2022-04-15 14:08:14,2022-04-15 14:08:14,0.182s,PASSED
+navigateToUrl(URL),Chrome 100.0.4896.88,,,2022-04-15 14:08:14,2022-04-15 14:08:31,16.889s,PASSED
+delay(3),Chrome 100.0.4896.88,,,2022-04-15 14:08:31,2022-04-15 14:08:34,3.165s,PASSED
+"verifyElementText(findTestObject(""Table Book/txt_Row1 BookName""), BookName)",Chrome 100.0.4896.88,,,2022-04-15 14:08:34,2022-04-15 14:08:35,0.613s,PASSED
+"verifyElementText(findTestObject(""Table Book/txt_Row1 Author""), Author)",Chrome 100.0.4896.88,,,2022-04-15 14:08:35,2022-04-15 14:08:36,0.675s,PASSED
+"verifyElementText(findTestObject(""Table Book/txt_Row1 Subject""), Subject)",Chrome 100.0.4896.88,,,2022-04-15 14:08:36,2022-04-15 14:08:36,0.535s,PASSED
+"verifyElementText(findTestObject(""Table Book/txt_Row1 Price""), Price)",Chrome 100.0.4896.88,,,2022-04-15 14:08:36,2022-04-15 14:08:37,0.440s,PASSED
+delay(3),Chrome 100.0.4896.88,,,2022-04-15 14:08:37,2022-04-15 14:08:40,3.006s,PASSED
+closeBrowser(),Chrome 100.0.4896.88,,,2022-04-15 14:08:40,2022-04-15 14:08:41,1.301s,PASSED
+,,,,,,,
+Test Cases/Table Book/Verify Table Value,Chrome 100.0.4896.88,,,2022-04-15 14:08:41,2022-04-15 14:09:02,21.218s,FAILED
+"openBrowser("""")",Chrome 100.0.4896.88,,,2022-04-15 14:08:41,2022-04-15 14:08:43,2.140s,PASSED
+maximizeWindow(),Chrome 100.0.4896.88,,,2022-04-15 14:08:43,2022-04-15 14:08:44,0.157s,PASSED
+navigateToUrl(URL),Chrome 100.0.4896.88,,,2022-04-15 14:08:44,2022-04-15 14:08:58,14.169s,PASSED
+delay(3),Chrome 100.0.4896.88,,,2022-04-15 14:08:58,2022-04-15 14:09:01,3.007s,PASSED
+"verifyElementText(findTestObject(""Table Book/txt_Row1 BookName""), BookName)",Chrome 100.0.4896.88,,,2022-04-15 14:09:01,2022-04-15 14:09:02,1.710s,FAILED

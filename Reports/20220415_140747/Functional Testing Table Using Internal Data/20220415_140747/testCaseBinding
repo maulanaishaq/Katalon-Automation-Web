@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Table Book/Verify Table Value","testCaseId":"Test Cases/Table Book/Verify Table Value","iterationVariableName":"","bindedValues":{"Price":"\u0027300\u0027","BookName":"\u0027Learn Selenium\u0027","Author":"\u0027Amit\u0027","Subject":"\u0027Selenium\u0027"}}
+{"testCaseName":"Test Cases/Table Book/Verify Table Value","testCaseId":"Test Cases/Table Book/Verify Table Value","iterationVariableName":"","bindedValues":{"Price":"\u0027500\u0027","BookName":"\u0027Learn Java\u0027","Author":"\u0027Mukesh\u0027","Subject":"\u0027Java\u0027"}}

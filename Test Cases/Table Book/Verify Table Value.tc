@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Table Value</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2a4cad2-1456-4d38-a75e-df286439641d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7fa4d271-192c-43bf-bfa8-c42c87d5bd91</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>458e49a1-3c1e-4b17-a444-158688c92b77</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>366079fd-7168-4531-b61f-3f5d85e0b87d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ace0c741-7d24-4a97-8fce-b807155a54ac</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Learn Selenium'</defaultValue>
+      <description></description>
+      <id>7fa4d271-192c-43bf-bfa8-c42c87d5bd91</id>
+      <masked>false</masked>
+      <name>BookName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Amit'</defaultValue>
+      <description></description>
+      <id>458e49a1-3c1e-4b17-a444-158688c92b77</id>
+      <masked>false</masked>
+      <name>Author</name>
+   </variable>
+   <variable>
+      <defaultValue>'Selenium'</defaultValue>
+      <description></description>
+      <id>366079fd-7168-4531-b61f-3f5d85e0b87d</id>
+      <masked>false</masked>
+      <name>Subject</name>
+   </variable>
+   <variable>
+      <defaultValue>'300'</defaultValue>
+      <description></description>
+      <id>ace0c741-7d24-4a97-8fce-b807155a54ac</id>
+      <masked>false</masked>
+      <name>Price</name>
+   </variable>
+</TestCaseEntity>

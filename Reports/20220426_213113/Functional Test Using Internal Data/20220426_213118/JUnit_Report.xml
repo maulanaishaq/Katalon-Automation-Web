@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Functional Test Using Internal Data" time="184.307" tests="1" failures="0" errors="0">
+   <testsuite name="Functional Test Using Internal Data" tests="1" failures="0" errors="0" time="184.307" skipped="0" timestamp="2022-04-26 21:31:50" hostname="pbs-maulana - BA-00010367" id="Test Suites/Functional Test Using Internal Data">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pbs-maulana\\Katalon Studio\\Automation Practice\\Reports\\20220426_213113\\Functional Test Using Internal Data\\20220426_213118"/>
+         <property name="logFiles" value="C:\\Users\\pbs-maulana\\Katalon Studio\\Automation Practice\\Reports\\20220426_213113\\Functional Test Using Internal Data\\20220426_213118\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pbs-maulana - BA-00010367"/>
+         <property name="remoteDriverUrl" value="https://maulanaishaq_smkQ3t:gyKXc8vwxykAV26xszF6@hub-cloud.browserstack.com/wd/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;applicationCacheEnabled&quot;: true,
+  &quot;browserName&quot;: &quot;safari&quot;,
+  &quot;cleanSession&quot;: true,
+  &quot;cssSelectorsEnabled&quot;: true,
+  &quot;databaseEnabled&quot;: true,
+  &quot;handlesAlerts&quot;: true,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;locationContextEnabled&quot;: false,
+  &quot;nativeEvents&quot;: true,
+  &quot;platform&quot;: &quot;MAC&quot;,
+  &quot;platformName&quot;: &quot;MAC&quot;,
+  &quot;rotatable&quot;: false,
+  &quot;version&quot;: &quot;13605.3.8&quot;,
+  &quot;webStorageEnabled&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="d94f0ad323d36f7c8d1c4398842410bc9e5a5b77"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Form Volunteer Sign Up/Successfully Submit" time="182.753" classname="Test Cases/Form Volunteer Sign Up/Successfully Submit" status="PASSED">
+         <system-out><![CDATA[2022-04-26 21:31:51 - [TEST_CASE][PASSED] - Test Cases/Form Volunteer Sign Up/Successfully Submit: Test Cases/Form Volunteer Sign Up/Successfully Submit
+
+2022-04-26 21:31:53 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+2022-04-26 21:31:54 - [MESSAGE][INFO] - User set preference: ['os', 'OS X']
+
+2022-04-26 21:31:54 - [MESSAGE][INFO] - User set preference: ['os_version', 'High Sierra']
+
+2022-04-26 21:31:54 - [MESSAGE][INFO] - User set preference: ['browser', 'Safari']
+
+2022-04-26 21:31:54 - [MESSAGE][INFO] - User set preference: ['browser_version', '11.0']
+
+2022-04-26 21:31:54 - [MESSAGE][INFO] - Connecting to remote web server 'hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2022-04-26 21:31:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-26 21:32:06 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2022-04-26 21:32:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-26 21:32:06 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-26 21:32:06 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://testautomationpractice.blogspot.com/' successfully
+
+2022-04-26 21:33:54 - [MESSAGE][PASSED] - Navigate to 'http://testautomationpractice.blogspot.com/' successfully
+
+2022-04-26 21:33:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-04-26 21:34:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-04-26 21:34:00 - [TEST_STEP][PASSED] - setText(findTestObject("Volunter Sign Up/input_First Name"), FirstName): Text 'Maulana' is set on object 'Object Repository/Volunter Sign Up/input_First Name'
+
+2022-04-26 21:34:03 - [MESSAGE][PASSED] - Text 'Maulana' is set on object 'Object Repository/Volunter Sign Up/input_First Name'
+
+2022-04-26 21:34:04 - [TEST_STEP][PASSED] - setText(findTestObject("Volunter Sign Up/input_Last Name"), LastName): Text 'Ishaq' is set on object 'Object Repository/Volunter Sign Up/input_Last Name'
+
+2022-04-26 21:34:07 - [MESSAGE][PASSED] - Text 'Ishaq' is set on object 'Object Repository/Volunter Sign Up/input_Last Name'
+
+2022-04-26 21:34:07 - [TEST_STEP][PASSED] - setText(findTestObject("Volunter Sign Up/input_Phone"), Phone): Text '089744734673' is set on object 'Object Repository/Volunter Sign Up/input_Phone'
+
+2022-04-26 21:34:10 - [MESSAGE][PASSED] - Text '089744734673' is set on object 'Object Repository/Volunter Sign Up/input_Phone'
+
+2022-04-26 21:34:11 - [TEST_STEP][PASSED] - setText(findTestObject("Volunter Sign Up/input_Country"), Country): Text 'Indonesia' is set on object 'Object Repository/Volunter Sign Up/input_Country'
+
+2022-04-26 21:34:14 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/Volunter Sign Up/input_Country'
+
+2022-04-26 21:34:14 - [TEST_STEP][PASSED] - setText(findTestObject("Volunter Sign Up/input_City"), City): Text 'Jakarta' is set on object 'Object Repository/Volunter Sign Up/input_City'
+
+2022-04-26 21:34:17 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Volunter Sign Up/input_City'
+
+2022-04-26 21:34:17 - [TEST_STEP][PASSED] - setText(findTestObject("Volunter Sign Up/input_Email Address"), EmailAddress): Text 'ishaq@gmail.com' is set on object 'Object Repository/Volunter Sign Up/input_Email Address'
+
+2022-04-26 21:34:20 - [MESSAGE][PASSED] - Text 'ishaq@gmail.com' is set on object 'Object Repository/Volunter Sign Up/input_Email Address'
+
+2022-04-26 21:34:21 - [TEST_STEP][PASSED] - click(findTestObject("Volunter Sign Up/Gender/select_Male")): Object: 'Object Repository/Volunter Sign Up/Gender/select_Male' is clicked on
+
+2022-04-26 21:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Volunter Sign Up/Gender/select_Male' is clicked on
+
+2022-04-26 21:34:23 - [TEST_STEP][PASSED] - check(findTestObject("Volunter Sign Up/Days/checkbox_Monday")): Object 'Object Repository/Volunter Sign Up/Days/checkbox_Monday' is checked
+
+2022-04-26 21:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/Volunter Sign Up/Days/checkbox_Monday' is checked
+
+2022-04-26 21:34:26 - [TEST_STEP][PASSED] - check(findTestObject("Volunter Sign Up/Days/checkbox_Wednesday")): Object 'Object Repository/Volunter Sign Up/Days/checkbox_Wednesday' is checked
+
+2022-04-26 21:34:28 - [MESSAGE][PASSED] - Object 'Object Repository/Volunter Sign Up/Days/checkbox_Wednesday' is checked
+
+2022-04-26 21:34:29 - [TEST_STEP][PASSED] - check(findTestObject("Volunter Sign Up/Days/checkbox_Saturday")): Object 'Object Repository/Volunter Sign Up/Days/checkbox_Saturday' is checked
+
+2022-04-26 21:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Volunter Sign Up/Days/checkbox_Saturday' is checked
+
+2022-04-26 21:34:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-04-26 21:34:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-04-26 21:34:34 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Volunter Sign Up/select_Best Time"), 2, STOP_ON_FAILURE): All options with index in [2] are selected on object 'Object Repository/Volunter Sign Up/select_Best Time'
+
+2022-04-26 21:34:39 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Volunter Sign Up/select_Best Time'
+
+2022-04-26 21:34:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Volunter Sign Up/upload_Files"), "C:\Users\pbs-maulana\Documents\Bahan gambar produk seller"): Keys 'C:\Users\pbs-maulana\Documents\Bahan gambar produk seller' sent to object: 'tempBody'
+
+2022-04-26 21:34:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Volunter Sign Up/upload_Files' does not exist
+
+2022-04-26 21:34:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-04-26 21:34:40 - [MESSAGE][PASSED] - Keys 'C:\Users\pbs-maulana\Documents\Bahan gambar produk seller' sent to object: 'tempBody'
+
+2022-04-26 21:34:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-04-26 21:34:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-04-26 21:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Volunter Sign Up/btn_Submit"), STOP_ON_FAILURE): Object: 'Object Repository/Volunter Sign Up/btn_Submit' is clicked on
+
+2022-04-26 21:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Volunter Sign Up/btn_Submit' is clicked on
+
+2022-04-26 21:34:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-04-26 21:34:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-04-26 21:34:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-26 21:34:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-26 21:31:50 - [TEST_SUITE][PASSED] - Functional Test Using Internal Data: Test Cases/Form Volunteer Sign Up/Successfully Submit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

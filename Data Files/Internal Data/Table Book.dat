@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Table Book</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>3f4bbb06-2f67-483a-8bb6-8393f72c5600</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Learn+Selenium Amit Selenium 300</data>
+   <data>Learn+Java Mukesh Java 500</data>
+   <data>Learn+JS Animesh Javascript 300</data>
+   <data>Master+In+Selenium Mukesh Selenium 3000</data>
+   <data>Master+In+Java Amod JAVA 2000</data>
+   <data>Master+In+JS Amit Javascript 1000</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>BookName</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Author</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Subject</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>Price</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

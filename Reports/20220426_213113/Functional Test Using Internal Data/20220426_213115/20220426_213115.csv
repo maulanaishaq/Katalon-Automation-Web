@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Functional Test Using Internal Data,Chrome 100.0.4896.127,,,2022-04-26 21:31:40,2022-04-26 21:33:01,1m - 20.809s,PASSED
+,,,,,,,
+Test Cases/Form Volunteer Sign Up/Successfully Submit,Chrome 100.0.4896.127,,,2022-04-26 21:31:42,2022-04-26 21:33:01,1m - 19.182s,PASSED
+openBrowser(null),Chrome 100.0.4896.127,,,2022-04-26 21:31:44,2022-04-26 21:31:56,12.152s,PASSED
+maximizeWindow(),Chrome 100.0.4896.127,,,2022-04-26 21:31:56,2022-04-26 21:31:57,0.421s,PASSED
+navigateToUrl(URL),Chrome 100.0.4896.127,,,2022-04-26 21:31:57,2022-04-26 21:32:05,8.012s,PASSED
+delay(5),Chrome 100.0.4896.127,,,2022-04-26 21:32:05,2022-04-26 21:32:10,5.128s,PASSED
+"setText(findTestObject(""Volunter Sign Up/input_First Name""), FirstName)",Chrome 100.0.4896.127,,,2022-04-26 21:32:10,2022-04-26 21:32:13,3.438s,PASSED
+"setText(findTestObject(""Volunter Sign Up/input_Last Name""), LastName)",Chrome 100.0.4896.127,,,2022-04-26 21:32:13,2022-04-26 21:32:16,2.690s,PASSED
+"setText(findTestObject(""Volunter Sign Up/input_Phone""), Phone)",Chrome 100.0.4896.127,,,2022-04-26 21:32:16,2022-04-26 21:32:19,2.911s,PASSED
+"setText(findTestObject(""Volunter Sign Up/input_Country""), Country)",Chrome 100.0.4896.127,,,2022-04-26 21:32:19,2022-04-26 21:32:22,2.585s,PASSED
+"setText(findTestObject(""Volunter Sign Up/input_City""), City)",Chrome 100.0.4896.127,,,2022-04-26 21:32:22,2022-04-26 21:32:24,2.791s,PASSED
+"setText(findTestObject(""Volunter Sign Up/input_Email Address""), EmailAddress)",Chrome 100.0.4896.127,,,2022-04-26 21:32:24,2022-04-26 21:32:27,2.724s,PASSED
+"click(findTestObject(""Volunter Sign Up/Gender/select_Male""))",Chrome 100.0.4896.127,,,2022-04-26 21:32:27,2022-04-26 21:32:30,2.922s,PASSED
+"check(findTestObject(""Volunter Sign Up/Days/checkbox_Monday""))",Chrome 100.0.4896.127,,,2022-04-26 21:32:30,2022-04-26 21:32:32,2.453s,PASSED
+"check(findTestObject(""Volunter Sign Up/Days/checkbox_Wednesday""))",Chrome 100.0.4896.127,,,2022-04-26 21:32:32,2022-04-26 21:32:36,3.095s,PASSED
+"check(findTestObject(""Volunter Sign Up/Days/checkbox_Saturday""))",Chrome 100.0.4896.127,,,2022-04-26 21:32:36,2022-04-26 21:32:38,2.454s,PASSED
+delay(3),Chrome 100.0.4896.127,,,2022-04-26 21:32:38,2022-04-26 21:32:41,3.013s,PASSED
+"selectOptionByIndex(findTestObject(""Volunter Sign Up/select_Best Time""), 2, STOP_ON_FAILURE)",Chrome 100.0.4896.127,,,2022-04-26 21:32:41,2022-04-26 21:32:45,4.340s,PASSED
+"sendKeys(findTestObject(""Volunter Sign Up/upload_Files""), ""C:\Users\pbs-maulana\Documents\Bahan gambar produk seller"")",Chrome 100.0.4896.127,,,2022-04-26 21:32:45,2022-04-26 21:32:46,0.955s,PASSED
+delay(5),Chrome 100.0.4896.127,,,2022-04-26 21:32:46,2022-04-26 21:32:51,5.007s,PASSED
+"click(findTestObject(""Volunter Sign Up/btn_Submit""), STOP_ON_FAILURE)",Chrome 100.0.4896.127,,,2022-04-26 21:32:51,2022-04-26 21:32:55,3.136s,PASSED
+delay(5),Chrome 100.0.4896.127,,,2022-04-26 21:32:55,2022-04-26 21:33:00,5.011s,PASSED
+closeBrowser(),Chrome 100.0.4896.127,,,2022-04-26 21:33:00,2022-04-26 21:33:01,1.563s,PASSED

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Functional Test Using Internal Data,Safari 11,,,2022-04-26 21:31:50,2022-04-26 21:34:54,3m - 4.307s,PASSED
+,,,,,,,
+Test Cases/Form Volunteer Sign Up/Successfully Submit,Safari 11,,,2022-04-26 21:31:51,2022-04-26 21:34:54,3m - 2.753s,PASSED
+openBrowser(null),Safari 11,,,2022-04-26 21:31:53,2022-04-26 21:32:06,12.651s,PASSED
+maximizeWindow(),Safari 11,,,2022-04-26 21:32:06,2022-04-26 21:32:06,0.330s,PASSED
+navigateToUrl(URL),Safari 11,,,2022-04-26 21:32:06,2022-04-26 21:33:54,1m - 48.076s,PASSED
+delay(5),Safari 11,,,2022-04-26 21:33:54,2022-04-26 21:34:00,5.182s,PASSED
+"setText(findTestObject(""Volunter Sign Up/input_First Name""), FirstName)",Safari 11,,,2022-04-26 21:34:00,2022-04-26 21:34:04,4.090s,PASSED
+"setText(findTestObject(""Volunter Sign Up/input_Last Name""), LastName)",Safari 11,,,2022-04-26 21:34:04,2022-04-26 21:34:07,3.294s,PASSED
+"setText(findTestObject(""Volunter Sign Up/input_Phone""), Phone)",Safari 11,,,2022-04-26 21:34:07,2022-04-26 21:34:11,3.573s,PASSED
+"setText(findTestObject(""Volunter Sign Up/input_Country""), Country)",Safari 11,,,2022-04-26 21:34:11,2022-04-26 21:34:14,3.587s,PASSED
+"setText(findTestObject(""Volunter Sign Up/input_City""), City)",Safari 11,,,2022-04-26 21:34:14,2022-04-26 21:34:17,2.941s,PASSED
+"setText(findTestObject(""Volunter Sign Up/input_Email Address""), EmailAddress)",Safari 11,,,2022-04-26 21:34:17,2022-04-26 21:34:21,3.528s,PASSED
+"click(findTestObject(""Volunter Sign Up/Gender/select_Male""))",Safari 11,,,2022-04-26 21:34:21,2022-04-26 21:34:23,2.202s,PASSED
+"check(findTestObject(""Volunter Sign Up/Days/checkbox_Monday""))",Safari 11,,,2022-04-26 21:34:23,2022-04-26 21:34:26,2.969s,PASSED
+"check(findTestObject(""Volunter Sign Up/Days/checkbox_Wednesday""))",Safari 11,,,2022-04-26 21:34:26,2022-04-26 21:34:29,3.482s,PASSED
+"check(findTestObject(""Volunter Sign Up/Days/checkbox_Saturday""))",Safari 11,,,2022-04-26 21:34:29,2022-04-26 21:34:31,2.096s,PASSED
+delay(3),Safari 11,,,2022-04-26 21:34:31,2022-04-26 21:34:34,3.013s,PASSED
+"selectOptionByIndex(findTestObject(""Volunter Sign Up/select_Best Time""), 2, STOP_ON_FAILURE)",Safari 11,,,2022-04-26 21:34:34,2022-04-26 21:34:39,4.615s,PASSED
+"sendKeys(findTestObject(""Volunter Sign Up/upload_Files""), ""C:\Users\pbs-maulana\Documents\Bahan gambar produk seller"")",Safari 11,,,2022-04-26 21:34:39,2022-04-26 21:34:40,1.331s,PASSED
+delay(5),Safari 11,,,2022-04-26 21:34:40,2022-04-26 21:34:45,5.010s,PASSED
+"click(findTestObject(""Volunter Sign Up/btn_Submit""), STOP_ON_FAILURE)",Safari 11,,,2022-04-26 21:34:45,2022-04-26 21:34:47,1.957s,PASSED
+delay(5),Safari 11,,,2022-04-26 21:34:47,2022-04-26 21:34:52,5.007s,PASSED
+closeBrowser(),Safari 11,,,2022-04-26 21:34:52,2022-04-26 21:34:54,1.702s,PASSED

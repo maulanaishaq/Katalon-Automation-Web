@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20220426_213113</name>
+   <tag></tag>
+   <displayName>20220426_213113</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220426_213113/Functional Test Using Internal Data/20220426_213115</reportLocation>
+         <runConfigDescription>
+            <groupName>Custom</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>browserstack_win_chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220426_213113/Functional Test Using Internal Data/20220426_213118</reportLocation>
+         <runConfigDescription>
+            <groupName>Custom</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>browserstack_mac_safari</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Test Suite Collection 1</testSuiteCollectionId>
+</ReportCollectionEntity>
